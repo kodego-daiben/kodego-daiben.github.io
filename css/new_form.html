@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>Registration Form -2</h1>
+    <form>
+      <input type="hidden" value="birthday" />
+    </form>
+    <h1>Registration Form -1</h1>
+    <form>
+      <input type="date" /><br />
+      <input
+        id="rangeInput"
+        type="range"
+        min="0"
+        max="200"
+        oninput="amount.value=rangeInput.value"
+      />
+      <input
+        id="amount"
+        type="number"
+        value="100"
+        min="0"
+        max="200"
+        oninput="rangeInput.value=amount.value"
+      />
+      <br />
+      <input type="color" name="color" value="#FF0000" />
+      <input type="time" name="time" />
+      <input type="month" />
+      <input type="week" name="week_year" /><br />
+      <input type="url" />
+      <input type="number" />
+      <input type="tel" />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+
+    <h1>Registration Form 0</h1>
+    <form>
+      <input type="file" name="fileupload" accept="text/*" /><br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+
+    <h1>Registration Form 1</h1>
+    <form>
+      <label id="last_name">Last name:</label>
+      <input type="text" name="last_name" placeholder="ex. dela Cruz" />
+      <label id="first_name">First name:</label>
+      <input type="text" name="first_name" placeholder="ex. Juan" /><br />
+    </form>
+
+    <h1>Password</h1>
+    <form>
+      Password: <input type="password" name="password" /> Confirm password:
+      <input type="password" name="password" />
+    </form>
+
+    <h1>Registration Form 2</h1>
+    <form>
+      Username: <input type="text" name="username" /><br />
+      Password: <input type="password" name="password" />
+    </form>
+
+    <h1>Registration Form 3</h1>
+    <form>
+      Description: <br />
+      <textarea
+        rows="5"
+        cols="50"
+        name="description"
+        placeholder="ex. Text"
+      ></textarea>
+    </form>
+
+    <h1>Registration Form 4</h1>
+    <form>
+      <input type="checkbox" name="html" />HTML
+      <input type="checkbox" name="css" disabled />CSS
+      <input type="checkbox" name="js" disabled />Javascript
+    </form>
+
+    <h1>Registration Form 5</h1>
+    <form>
+      <input type="radio" name="gender" value="male" disabled />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="other" />Other
+    </form>
+
+    <h1>Registration Form 6</h1>
+    <form>
+      <select name="dropdown">
+        <option value="none">Select one...</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">Javascript</option></select
+      ><br />
+    </form>
+  </body>
+</html>

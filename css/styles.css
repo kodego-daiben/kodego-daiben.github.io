@@ -1,0 +1,12 @@
+.center{
+    display: block;
+    margin: auto;
+}
+img {
+    float:left;
+    height: 300px;
+    color: orange;
+}
+p{
+    display: inline;
+}

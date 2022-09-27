@@ -1,0 +1,27 @@
+#pr1{
+    text-align:right;   
+}
+p.sentence{
+    color: yellow;
+}
+img.right{
+    float:right;
+}
+#par2 {
+    color: red;
+}
+.right {
+    text-align: right;
+}
+p.right {
+    color:blue;
+}
+h1, h2, h3, h4 {
+    color: red;
+}
+h1 {
+    font-size: 300%
+}
+* {
+    font-family: "Comics Sans MS"
+}
